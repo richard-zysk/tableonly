@@ -1,0 +1,402 @@
+
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="title" content="Zyskathon | 2023">
+    <title>Zyskathon | 2023</title>
+
+    <!-- Bootstrap core CSS -->
+    <link href="vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+
+    <!-- Custom fonts for this template -->
+    <link href="vendor/fontawesome-free/css/all.min.css" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Varela+Round" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Nunito:200,200i,300,300i,400,400i,600,600i,700,700i,800,800i,900,900i"
+        rel="stylesheet">
+
+    <!-- Custom styles for this template -->
+    <link href="css/grayscale.min.css" rel="stylesheet">
+    <link href="css/custom.css" rel="stylesheet">
+    <!-- Favicon for CreatED 2020 -->
+    <link rel="shortcut icon" type="image/x-icon" href="img/favicon_io/g40-3.svg">
+    <style>
+        /* General styles for the body */
+        body {
+            font-family: 'Courier New', Courier, monospace;
+            background-color: white;
+            margin: 50px;
+            color: black !important;
+        }
+
+        /* Navbar styles */
+        .navbar {
+            background-color: #17153A;
+        }
+
+        .navbar img {
+            max-height: 30px;
+        }
+
+        /* Table styles */
+        .teams-table {
+            width: 100%;
+            border-collapse: collapse;
+            margin: 25px auto;
+            font-size: 18px;
+            text-align: left;
+            box-shadow: 0 0 20px rgba(0, 0, 0, 0.3);
+            border-radius: 5px;
+            overflow: hidden;
+            background-color: #34495e;
+        }
+
+        /* Table header styles */
+        .teams-table thead tr {
+            background-color: #D40000 !important;
+            color: black;
+            font-weight: bold;
+        }
+
+        /* Alternating table row colors */
+        .teams-table tbody tr {
+            background-color: white;
+        }
+
+        .teams-table tbody tr:nth-of-type(even) {
+            background-color: #EEEEEE;
+            color: black;
+        }
+
+        /* Hover effect */
+        .teams-table tbody tr:hover {
+            background-color: rgba(255, 255, 255, 0.696);
+        }
+
+        /* Table cell styles */
+        .teams-table td {
+            padding: 12px 15px;
+            border: 1px solid #576a7a;
+            color: black;
+        }
+
+        .teams-table th {
+            padding: 12px 15px;
+            border: 1px solid #576a7a;
+            color: white;
+        }
+
+        /* Styling the "Team" column */
+        .teams-table td.team-name {
+            background-color: #D40000;
+            color: white;
+        }
+
+        /* Making the table responsive */
+        @media screen and (max-width: 768px) {
+            .teams-table td,
+            .teams-table th {
+                display: block;
+                text-align: left;
+            }
+
+            .teams-table td::before {
+                content: attr(data-label);
+                position: absolute;
+                left: 10px;
+                width: 50%;
+                padding: 10px 0;
+                font-size: 15px;
+                font-weight: bold;
+                text-align: left;
+                color: #D40000;
+            }
+        }
+
+        /* Footer styles */
+        footer {
+            margin-top: auto;
+            color: #D40000;
+            text-align: center;
+            padding: 10px 0;
+        }
+
+        a {
+            color: #D40000;
+            text-decoration: none;
+        }
+
+        .fade-in {
+            opacity: 0;
+            animation: fadeIn 2s ease forwards;
+        }
+
+        @keyframes fadeIn {
+            0% {
+                opacity: 0;
+            }
+
+            100% {
+                opacity: 1;
+            }
+        }
+    </style>
+</head>
+	
+
+<body>
+    <!-- Navigation -->
+    <nav class="navbar home-navbar navbar-expand-lg navbar-light fixed-top" id="mainNav">
+        <div id="navbar-container" class="container" style="margin-left: 89px;">
+            <a href="/">
+                <img src="./img/Frame 66.svg" alt="" height="30px">
+            </a>
+        </div>
+        <div class="collapse navbar-collapse" id="navbarResponsive">
+            </ul>
+        </div>
+        </div>
+    </nav>
+
+
+
+    <div class="margin-top fade-in">
+        <table class="teams-table">
+
+            <thead>
+
+                <tr>
+
+                    <th>Team</th>
+
+                    <th>Member 1</th>
+
+                    <th>Member 2</th>
+
+                    <th>Member 3</th>
+
+                    <th>Member 4</th>
+
+                </tr>
+
+            </thead>
+
+            <tbody>
+
+                <tr>
+
+                    <td>Team 1</td>
+
+                    <td>Arijit Saha (C)</td>
+
+                    <td>Biswajit</td>
+
+                    <td>Vinod Patil</td>
+
+                    <td>Jeevan</td>
+
+                </tr>
+
+                <tr>
+
+                    <td>Team 2</td>
+
+                    <td>Vishak Gowda (C)</td>
+
+                    <td>Rachayya</td>
+
+                    <td>Ganapati</td>
+
+                    <td>Rohit Sharma</td>
+
+                </tr>
+
+                <tr>
+
+                    <td>Team 3</td>
+
+                    <td>Ranjith</td>
+
+                    <td>Manjula</td>
+
+                    <td>Subhash</td>
+
+                    <td>Sushant (C)</td>
+
+                </tr>
+
+                <tr>
+
+                    <td>Team 4</td>
+
+                    <td>Pawan K</td>
+
+                    <td>Prasad</td>
+
+                    <td>Vikas (C)</td>
+
+                    <td>Vajintha</td>
+
+                </tr>
+
+                <tr>
+
+                    <td>Team 5</td>
+
+                    <td>Azim</td>
+
+                    <td>Rajkumar (C)</td>
+
+                    <td>Pradeep</td>
+
+                    <td>Rajshekhar</td>
+
+                </tr>
+
+                <tr>
+
+                    <td>Team 6</td>
+
+                    <td>Basanta (C)</td>
+
+                    <td>Brinda</td>
+
+                    <td>Venkatesh</td>
+
+                    <td>Anusha</td>
+
+                </tr>
+
+                <tr>
+
+                    <td>Team 7</td>
+
+                    <td>Rohan Jadhav (C)</td>
+
+                    <td>Akhila</td>
+
+                    <td>Pavan KB</td>
+
+                    <td>Punith Goud</td>
+
+                </tr>
+
+                <tr>
+
+                    <td>Team 8</td>
+
+                    <td>Suthesh M (C)</td>
+
+                    <td>Sampath</td>
+
+                    <td>Vishnu Sathyapalan</td>
+
+                    <td>Ajay</td>
+
+                </tr>
+
+                <tr>
+
+                    <td>Team 9</td>
+
+                    <td>Pooja (C)</td>
+
+                    <td>Deepan</td>
+
+                    <td>Dhanashree</td>
+
+                    <td>Goutham</td>
+
+                </tr>
+
+                <tr>
+
+                    <td>Team 10</td>
+
+                    <td>Raghu (C)</td>
+
+                    <td>Sushil</td>
+
+                    <td>Prashanth</td>
+
+                    <td>Rakshith</td>
+
+                </tr>
+
+                <tr>
+
+                    <td>Team 11</td>
+
+                    <td>Vandhana</td>
+
+                    <td>Richard</td>
+
+                    <td>Rishika Teja Lokesh (C)</td>
+
+                    <td>Pravallika</td>
+
+                </tr>
+
+                <tr>
+
+                    <td>Team 12</td>
+
+                    <td>Ananth (C)</td>
+
+                    <td>Sashank </td>
+
+                    <td>Jahid</td>
+
+                    <td>Amogh</td>
+
+                </tr>
+
+                <tr>
+
+                    <td>Team 13</td>
+
+                    <td>Ashish (C)</td>
+
+                    <td>Karthik</td>
+
+                    <td>Yathish</td>
+
+                    <td>Namith</td>
+
+                </tr>
+
+                <tr>
+
+                    <td>Team 14</td>
+
+                    <td>Vishnu(intern)</td>
+
+                    <td>Sharath(intern)</td>
+
+                    <td>Basavaraj</td>
+
+                    <td>Chaithra</td>
+
+                </tr>
+
+                <tr>
+
+                    <td>Organizing Commitee</td>
+                    <td>Puja</td>
+                    <td>Stalin Marbhenn</td>
+                    <td>Varun U</td>
+                    <td>Shilpa V P</td>
+                </tr>
+            </tbody>
+        </table>
+    </div>
+
+
+</body>
+<footer>
+    <a href="https://www.zyskathon.com/">Visit Official Website</a>
+</footer>
+
+</html>
